@@ -14,10 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        //testUIDateExtensions()
         //testUIDeviceExtensions()
         //testUIViewExtensions()
     }
 
+    private func testUIDateExtensions() {
+        let date = Date()
+        print(date.toString())
+        print(date.toString(format: "dd/MM/yyyy"))
+    }
+    
     private func testUIDeviceExtensions() {
         print(UIDevice.modelName)
         print(UIDevice.modelIdentifier)

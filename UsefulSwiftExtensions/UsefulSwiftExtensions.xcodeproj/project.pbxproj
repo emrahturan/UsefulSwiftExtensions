@@ -15,6 +15,7 @@
 		FA5745EE28777B2500C1D7D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5745EC28777B2500C1D7D5 /* LaunchScreen.storyboard */; };
 		FA5745F728777B7500C1D7D5 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5745F628777B7500C1D7D5 /* UIDevice+Extensions.swift */; };
 		FA5745F92877813400C1D7D5 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5745F82877813400C1D7D5 /* UIView+Extensions.swift */; };
+		FA5745FB28778C2500C1D7D5 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5745FA28778C2500C1D7D5 /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FA5745EF28777B2500C1D7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA5745F628777B7500C1D7D5 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
 		FA5745F82877813400C1D7D5 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		FA5745FA28778C2500C1D7D5 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				FA5745F628777B7500C1D7D5 /* UIDevice+Extensions.swift */,
 				FA5745F82877813400C1D7D5 /* UIView+Extensions.swift */,
+				FA5745FA28778C2500C1D7D5 /* Date+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				FA5745F92877813400C1D7D5 /* UIView+Extensions.swift in Sources */,
 				FA5745E228777B2400C1D7D5 /* AppDelegate.swift in Sources */,
 				FA5745E428777B2400C1D7D5 /* SceneDelegate.swift in Sources */,
+				FA5745FB28778C2500C1D7D5 /* Date+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
