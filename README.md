@@ -1,0 +1,2 @@
+# UsefulSwiftExtensions
+Useful Swift Extensions
