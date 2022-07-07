@@ -14,6 +14,7 @@
 		FA5745EB28777B2500C1D7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5745EA28777B2500C1D7D5 /* Assets.xcassets */; };
 		FA5745EE28777B2500C1D7D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5745EC28777B2500C1D7D5 /* LaunchScreen.storyboard */; };
 		FA5745F728777B7500C1D7D5 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5745F628777B7500C1D7D5 /* UIDevice+Extensions.swift */; };
+		FA5745F92877813400C1D7D5 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5745F82877813400C1D7D5 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA5745ED28777B2500C1D7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA5745EF28777B2500C1D7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA5745F628777B7500C1D7D5 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		FA5745F82877813400C1D7D5 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				FA5745F628777B7500C1D7D5 /* UIDevice+Extensions.swift */,
+				FA5745F82877813400C1D7D5 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				FA5745E628777B2400C1D7D5 /* ViewController.swift in Sources */,
 				FA5745F728777B7500C1D7D5 /* UIDevice+Extensions.swift in Sources */,
+				FA5745F92877813400C1D7D5 /* UIView+Extensions.swift in Sources */,
 				FA5745E228777B2400C1D7D5 /* AppDelegate.swift in Sources */,
 				FA5745E428777B2400C1D7D5 /* SceneDelegate.swift in Sources */,
 			);

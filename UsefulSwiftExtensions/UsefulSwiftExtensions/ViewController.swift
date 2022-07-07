@@ -8,17 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var roundedView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        printUIDeviceExtensions()
+        //testUIDeviceExtensions()
+        //testUIViewExtensions()
     }
 
-    private func printUIDeviceExtensions() {
+    private func testUIDeviceExtensions() {
         print(UIDevice.modelName)
         print(UIDevice.modelIdentifier)
+    }
+    
+    private func testUIViewExtensions() {
+        //roundedView.roundCorners(corners: [.topRight], radius: 25)
+        roundedView.roundCorners(radius: 25)
     }
 }
 
