@@ -9,17 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var roundedView: UIView!
+    @IBOutlet weak var textField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        //testUIDateExtensions()
+        //testDateExtensions()
         //testUIDeviceExtensions()
+        testUITextFieldExtensions()
         //testUIViewExtensions()
     }
 
-    private func testUIDateExtensions() {
+    private func testDateExtensions() {
         let date = Date()
         print(date.toString())
         print(date.toString(format: "dd/MM/yyyy"))
@@ -28,6 +30,16 @@ class ViewController: UIViewController {
     private func testUIDeviceExtensions() {
         print(UIDevice.modelName)
         print(UIDevice.modelIdentifier)
+    }
+    
+    private func testUITextFieldExtensions() {
+        let configuration = UIImage.SymbolConfiguration(pointSize: 15, weight: .black)
+        let image = UIImage(systemName: "house", withConfiguration: configuration)
+        
+        guard let image = image else { return }
+        
+        //textField.setIcon(image: image, position: .left)
+        textField.setIcon(image: image, position: .right)
     }
     
     private func testUIViewExtensions() {

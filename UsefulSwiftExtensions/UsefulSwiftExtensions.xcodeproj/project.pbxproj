@@ -16,6 +16,7 @@
 		FA5745F728777B7500C1D7D5 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5745F628777B7500C1D7D5 /* UIDevice+Extensions.swift */; };
 		FA5745F92877813400C1D7D5 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5745F82877813400C1D7D5 /* UIView+Extensions.swift */; };
 		FA5745FB28778C2500C1D7D5 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5745FA28778C2500C1D7D5 /* Date+Extensions.swift */; };
+		FA5745FD2879E88600C1D7D5 /* UITextfield+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5745FC2879E88600C1D7D5 /* UITextfield+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FA5745F628777B7500C1D7D5 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
 		FA5745F82877813400C1D7D5 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		FA5745FA28778C2500C1D7D5 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		FA5745FC2879E88600C1D7D5 /* UITextfield+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextfield+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,10 @@
 		FA5745F528777B4200C1D7D5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				FA5745F628777B7500C1D7D5 /* UIDevice+Extensions.swift */,
-				FA5745F82877813400C1D7D5 /* UIView+Extensions.swift */,
 				FA5745FA28778C2500C1D7D5 /* Date+Extensions.swift */,
+				FA5745F628777B7500C1D7D5 /* UIDevice+Extensions.swift */,
+				FA5745FC2879E88600C1D7D5 /* UITextfield+Extensions.swift */,
+				FA5745F82877813400C1D7D5 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				FA5745E628777B2400C1D7D5 /* ViewController.swift in Sources */,
 				FA5745F728777B7500C1D7D5 /* UIDevice+Extensions.swift in Sources */,
+				FA5745FD2879E88600C1D7D5 /* UITextfield+Extensions.swift in Sources */,
 				FA5745F92877813400C1D7D5 /* UIView+Extensions.swift in Sources */,
 				FA5745E228777B2400C1D7D5 /* AppDelegate.swift in Sources */,
 				FA5745E428777B2400C1D7D5 /* SceneDelegate.swift in Sources */,
