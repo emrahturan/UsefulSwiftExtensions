@@ -16,8 +16,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //testDateExtensions()
+        //testStringExtensions()
         //testUIDeviceExtensions()
-        testUITextFieldExtensions()
+        //testUITextFieldExtensions()
         //testUIViewExtensions()
     }
 
@@ -25,6 +26,11 @@ class ViewController: UIViewController {
         let date = Date()
         print(date.toString())
         print(date.toString(format: "dd/MM/yyyy"))
+    }
+    
+    private func testStringExtensions() {
+        let text = "emrh".replace("emrh", with: "Emrah")
+        print(text)
     }
     
     private func testUIDeviceExtensions() {
