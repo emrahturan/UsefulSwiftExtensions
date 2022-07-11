@@ -13,6 +13,7 @@ extension UITextField {
         case right
     }
     
+    /// Adds an image to the right or left of the text field
     func setIcon(image: UIImage, position: IconPosition) {
         let imageView = UIImageView()
         imageView.image = image

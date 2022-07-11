@@ -5,7 +5,7 @@
 //  Created by Emrah Turan on 11.07.2022.
 //
 
-import Foundation
+import Foundation.NSFileManager
 
 extension FileManager {
     /// Returns the home directory

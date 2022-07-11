@@ -5,7 +5,7 @@
 //  Created by Emrah Turan on 8.07.2022.
 //
 
-import Foundation
+import Foundation.NSDate
 
 extension Date {
     /// Converts the date to string format. Default format: dd.MM.yyyy
