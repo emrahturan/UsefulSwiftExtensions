@@ -16,6 +16,11 @@ Useful Swift Extensions
 * **.modelIdentifier**: Returns the device model. e.g. iPhone 8,1
 
 
+## UIScreen ([UIScreen+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/UIScreen%2BExtensions.swift))
+* **.width**: Returns the screen width
+* **.height**: Returns the screen height
+
+
 ## UITextField ([UITextField+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/UITextfield%2BExtensions.swift))
 * **.setIcon(image: UIImage, position: .right)**: Adds an image to the right of the text field
 
@@ -23,8 +28,3 @@ Useful Swift Extensions
 ## UIView ([UIView+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/UIView%2BExtensions.swift))
 * **.roundCorners(radius: 25)**: All corner will round
 * **.roundCorners(corners: [.topRight], radius: 25)**: Only top right corner will round
-
-
-
-
-
