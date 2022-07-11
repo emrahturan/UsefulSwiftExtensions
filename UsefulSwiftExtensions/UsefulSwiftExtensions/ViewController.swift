@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         
         //testBundleExtensions()
         //testDateExtensions()
+        //testFileManagerExtensions()
         //testStringExtensions()
         //testUIDeviceExtensions()
         //testUIScreenExtensions()
@@ -33,6 +34,13 @@ class ViewController: UIViewController {
         let date = Date()
         print(date.toString())
         print(date.toString(format: "dd/MM/yyyy"))
+    }
+    
+    private func testFileManagerExtensions() {
+        print(FileManager.homeDirectory)
+        print(FileManager.documentsDirectory)
+        print(FileManager.cachesDirectory)
+        print(FileManager.tmpDirectory)
     }
     
     private func testStringExtensions() {
