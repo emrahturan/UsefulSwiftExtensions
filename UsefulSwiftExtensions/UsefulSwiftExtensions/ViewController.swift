@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         //testDateExtensions()
         //testStringExtensions()
         //testUIDeviceExtensions()
+        //testUIScreenExtensions()
         //testUITextFieldExtensions()
         //testUIViewExtensions()
     }
@@ -36,6 +37,11 @@ class ViewController: UIViewController {
     private func testUIDeviceExtensions() {
         print(UIDevice.modelName)
         print(UIDevice.modelIdentifier)
+    }
+    
+    private func testUIScreenExtensions() {
+        print(UIScreen.width)
+        print(UIScreen.height)
     }
     
     private func testUITextFieldExtensions() {
