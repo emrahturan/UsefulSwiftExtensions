@@ -2,8 +2,8 @@
 Useful Swift Extensions
 
 ## Bundle ([Bundle+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/Bundle%2BExtensions.swift))
-* **.appVersion()**: Returns the app version
-* **.appBuild()**: Returns the app build number
+* **.appVersion**: Returns the app version
+* **.appBuild**: Returns the app build number
 
 ## Date ([Date+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/Date%2BExtensions.swift))
 * **.toString()**: e.g. 22.12.2021
