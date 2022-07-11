@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        //testBundleExtensions()
         //testDateExtensions()
         //testStringExtensions()
         //testUIDeviceExtensions()
@@ -23,6 +24,11 @@ class ViewController: UIViewController {
         //testUIViewExtensions()
     }
 
+    private func testBundleExtensions() {
+        print(Bundle.appVersion)
+        print(Bundle.appBuild)
+    }
+    
     private func testDateExtensions() {
         let date = Date()
         print(date.toString())

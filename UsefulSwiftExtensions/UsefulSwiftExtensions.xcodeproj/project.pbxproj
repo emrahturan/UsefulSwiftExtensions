@@ -19,6 +19,7 @@
 		FA5745FD2879E88600C1D7D5 /* UITextfield+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5745FC2879E88600C1D7D5 /* UITextfield+Extensions.swift */; };
 		FA5745FF2879EF0E00C1D7D5 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5745FE2879EF0E00C1D7D5 /* String+Extensions.swift */; };
 		FA6F4219287C83B0000751BF /* UIScreen+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F4218287C83B0000751BF /* UIScreen+Extensions.swift */; };
+		FA6F421B287C86BB000751BF /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F421A287C86BB000751BF /* Bundle+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FA5745FC2879E88600C1D7D5 /* UITextfield+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextfield+Extensions.swift"; sourceTree = "<group>"; };
 		FA5745FE2879EF0E00C1D7D5 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		FA6F4218287C83B0000751BF /* UIScreen+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extensions.swift"; sourceTree = "<group>"; };
+		FA6F421A287C86BB000751BF /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		FA5745F528777B4200C1D7D5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FA6F421A287C86BB000751BF /* Bundle+Extensions.swift */,
 				FA5745FA28778C2500C1D7D5 /* Date+Extensions.swift */,
 				FA5745FE2879EF0E00C1D7D5 /* String+Extensions.swift */,
 				FA5745F628777B7500C1D7D5 /* UIDevice+Extensions.swift */,
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5745E628777B2400C1D7D5 /* ViewController.swift in Sources */,
+				FA6F421B287C86BB000751BF /* Bundle+Extensions.swift in Sources */,
 				FA6F4219287C83B0000751BF /* UIScreen+Extensions.swift in Sources */,
 				FA5745F728777B7500C1D7D5 /* UIDevice+Extensions.swift in Sources */,
 				FA5745FD2879E88600C1D7D5 /* UITextfield+Extensions.swift in Sources */,
@@ -319,7 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UsefulSwiftExtensions/Info.plist;
@@ -332,7 +336,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emrahturan.UsefulSwiftExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -349,7 +353,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UsefulSwiftExtensions/Info.plist;
@@ -362,7 +366,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emrahturan.UsefulSwiftExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
