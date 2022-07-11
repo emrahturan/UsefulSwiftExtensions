@@ -1,13 +1,22 @@
 # UsefulSwiftExtensions
 Useful Swift Extensions
 
+
 ## Bundle ([Bundle+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/Bundle%2BExtensions.swift))
 * **.appVersion**: Returns the app version
 * **.appBuild**: Returns the app build number
 
+
 ## Date ([Date+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/Date%2BExtensions.swift))
 * **.toString()**: e.g. 22.12.2021
 * **.toString(format: "dd/MM/yyyy")**: e.g. 22/12/2021
+
+
+## FileManager ([FileManager+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/FileManager%2BExtensions.swift))
+* **.homeDirectory**: Returns the home directory
+* **.documentsDirectory**: Returns the documents  directory
+* **.cachesDirectory**: Returns the caches directory
+* **.tmpDirectory**: Returns the tmp directory
 
 
 ## String ([String+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/String%2BExtensions.swift))
