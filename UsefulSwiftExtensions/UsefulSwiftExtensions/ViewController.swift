@@ -58,6 +58,9 @@ class ViewController: UIViewController {
         print(UIColor.random.description)
         print(UIColor.random.description)
         print(UIColor.random.description)
+        
+        //roundedView.backgroundColor = UIColor(hex: "1412") // It turns black because the wrong code is given.
+        roundedView.backgroundColor = UIColor(hex: "#1ad7e8")
     }
     
     private func testUIDeviceExtensions() {
