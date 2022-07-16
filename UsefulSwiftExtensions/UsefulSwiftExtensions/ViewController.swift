@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         //testDateExtensions()
         //testFileManagerExtensions()
         //testStringExtensions()
+        //testUIApplicationExtensions()
         //testUIDeviceExtensions()
         //testUIScreenExtensions()
         //testUITextFieldExtensions()
@@ -46,6 +47,10 @@ class ViewController: UIViewController {
     private func testStringExtensions() {
         let text = "emrh".replace("emrh", with: "Emrah")
         print(text)
+    }
+    
+    private func testUIApplicationExtensions() {
+        print(UIApplication.statusBarHeight)
     }
     
     private func testUIDeviceExtensions() {
