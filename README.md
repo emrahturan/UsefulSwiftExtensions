@@ -49,3 +49,7 @@ Useful Swift Extensions
 ## UIView ([UIView+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/UIView%2BExtensions.swift))
 * **.roundCorners(radius: 25)**: All corner will round
 * **.roundCorners(corners: [.topRight], radius: 25)**: Only top right corner will round
+
+
+# Feedback
+If you have feedback about my UsefulSwiftExtensions Project do not forget to reach me via [Discussions](https://github.com/emrahturan/UsefulSwiftExtensions/discussions) section of this repo.
