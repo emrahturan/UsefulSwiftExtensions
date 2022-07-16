@@ -9,7 +9,7 @@ import UIKit.UIColor
 
 extension UIColor {
     /// Creates color with hex code. Returns black color if the hex code is unidentifiable
-    convenience init(hex: String) {
+    convenience init(hex: String, alpha: CGFloat = 1.0) {
         var clearHex = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         
         if (clearHex.hasPrefix("#")) {
@@ -28,7 +28,7 @@ extension UIColor {
         self.init(red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
                   green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
                   blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
-                  alpha: CGFloat(1.0))
+                  alpha: alpha)
     }
     
     /// Returns the random color.
