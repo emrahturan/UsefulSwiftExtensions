@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         //testFileManagerExtensions()
         //testStringExtensions()
         //testUIApplicationExtensions()
+        //testUIColorExtensions()
         //testUIDeviceExtensions()
         //testUIScreenExtensions()
         //testUITextFieldExtensions()
@@ -51,6 +52,12 @@ class ViewController: UIViewController {
     
     private func testUIApplicationExtensions() {
         print(UIApplication.statusBarHeight)
+    }
+    
+    private func testUIColorExtensions() {
+        print(UIColor.random.description)
+        print(UIColor.random.description)
+        print(UIColor.random.description)
     }
     
     private func testUIDeviceExtensions() {
