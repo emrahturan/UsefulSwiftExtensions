@@ -23,6 +23,15 @@ Useful Swift Extensions
 * **.replace("emrh", with: "Emrah")**: Allows you to make changes in the text
 
 
+## UIApplication ([UIApplication+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/UIApplication%2BExtensions.swift))
+* **.statusBarHeight**: Returns the status bar height
+
+
+## UIColor ([UIColor+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/UIColor%2BExtensions.swift))
+* **UIColor(hex: "#1ad7e8", alpha: 0.5)**: Creates color with hex code. Alpha is optional and is 1.0 if alpha is not set
+* **.random**: Returns the random color
+
+
 ## UIDevice ([UIDevice+Extensions.swift](https://github.com/emrahturan/UsefulSwiftExtensions/blob/main/UsefulSwiftExtensions/Extensions/UIDevice%2BExtensions.swift))
 * **.modelName**: Returns the device model. e.g. iPhone 6s
 * **.modelIdentifier**: Returns the device model. e.g. iPhone 8,1
